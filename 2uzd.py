@@ -11,5 +11,5 @@ nodes = [
     "Srv-Log;10.0.0.15;105;UP" ]
 
 for node in nodes:
-    hostname = node.split(";"[0])
+    hostname = node.split(";")[0]
     print(hostname)
